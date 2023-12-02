@@ -34,7 +34,6 @@ h1, h2, h3, p, ul{
     /* width: 1440px; */
     /* height: 72px; */
         background: var(--white, #FFF);
-        padding: 24px 0;
 }
 
 body{
