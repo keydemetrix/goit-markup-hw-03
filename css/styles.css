@@ -47,6 +47,9 @@ img{
 }
 
 /* logo */
+nav .logo-style{
+    margin-right: 76px;
+}
 .logo-style {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -55,7 +58,6 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    margin-right: 76px;
 }
 
 /* nav bar */
