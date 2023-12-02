@@ -55,6 +55,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    margin-right: 76px;
 }
 
 /* nav bar */
@@ -68,10 +69,15 @@ img{
 
 }
 
+.nav-menu-item{
+    padding: 24px 0;
+}
+
 .nav-menu-list, .nav-menu-item {
     display: inline-flex;
     list-style: none;
     gap: 40px;
+    
 }
 
 .sub{
