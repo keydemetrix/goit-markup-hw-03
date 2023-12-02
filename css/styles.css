@@ -71,15 +71,10 @@ nav .logo-style{
 
 }
 
-.nav-menu-item{
-    padding: 24px 0;
-}
-
 .nav-menu-list, .nav-menu-item {
     display: inline-flex;
     list-style: none;
     gap: 40px;
-    
 }
 
 .sub{
@@ -88,6 +83,7 @@ nav .logo-style{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--gray);
+        padding: 24px 0;
     
 }
 /* default class style */
