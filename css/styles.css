@@ -64,6 +64,7 @@ img{
         gap: 40px;
         /* left: 156px; */
         position: relative;
+        align-items: center;
 
 }
 
