@@ -12,7 +12,6 @@
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px; padding-right: 15px;
 }
 /* Global reset */
 h1, h2, h3, p, ul{
@@ -24,13 +23,16 @@ h1, h2, h3, p, ul{
 .header{
     border-bottom: 1px solid var(--conrflower, #e7e9Fc);
 }
-
+.additional{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
 .hd-container{
     /* width: 1440px; */
     /* height: 72px; */
         background: var(--white, #FFF);
         padding: 24px 0;
-        display: flex;
 }
 
 body{
