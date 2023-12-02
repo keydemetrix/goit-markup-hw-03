@@ -62,7 +62,7 @@ img{
 .nav-menu{
     display: inline-flex;
         gap: 40px;
-        left: 156px;
+        /* left: 156px; */
         position: relative;
 
 }
@@ -101,7 +101,7 @@ img{
 .address ul{
     gap: 40px;
     position: relative;
-    left: 332px;
+    /* left: 332px; */
 }
 .address {
     font-style: normal;
