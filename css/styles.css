@@ -1,0 +1,366 @@
+/* global colors */
+:root {
+    --gray: #2e2f42;
+    --navy-blue: #434455;
+    --iris: #4d5ae5;
+    --conrflower: #e7e9Fc;
+    --white: #ffffff;
+    --nav-blue: #404bbf;
+    --main-bg-color: #ffffff;
+}
+/* Global container */
+.container {
+    width: 1128px;
+    margin: 0 auto;
+}
+/* Global reset */
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding:0;
+}
+/* header class */
+
+.hd-container{
+    width: 1440px;
+    /* height: 72px; */
+        background: var(--white, #FFF);
+        padding: 24px 0;
+    border-bottom: 1px solid var(--conrflower, #e7e9Fc);
+    justify-content: space-between;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--navy-blue);
+    background-color: var(--white);
+}
+/* normalize */
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+/* logo */
+.logo-style {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+/* nav bar */
+
+.nav-menu{
+    display: inline-flex;
+        gap: 40px;
+        left: 156px;
+        position: relative;
+
+}
+
+.nav-menu-list, .nav-menu-item {
+    display: inline-flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.sub{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray);
+    
+}
+/* default class style */
+.link {
+    text-decoration: none;
+}
+/* color style for WEB logo */
+.hd-studio {
+    color: var(--gray);
+}
+/* default list class for nav */
+.list{
+    list-style: none;
+
+}
+.link:hover, :focus, :active {
+    color: var(--nav-blue);
+}
+/* address */
+.address ul{
+    gap: 40px;
+    position: relative;
+    left: 332px;
+}
+.address {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+    display: inline-flex;
+        gap: 40px;
+        /* left: 76px; */
+        position: relative;
+}
+
+.add{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+
+.add:hover {
+       color:var(--nav-blue)  
+}
+
+.add:focus{
+    color: var(--nav-blue)
+}
+/* --------------- END OF NAV ----------------*/
+/* First Section */
+.first-container{
+    background-color: var(--gray);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 600px;
+    
+}
+.section{
+    padding: 188px 472px;
+    display: block;
+    align-items: center;
+}
+
+.first-title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+    width: 496px;
+}
+/* button */
+.section button{
+    margin-left: 163px;
+    margin-top: 48px;
+}
+
+.main-button{
+    background-color: var(--iris);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    align-items: flex-start;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.main-button:hover, :focus {
+    background-color: var(--nav-blue);
+}
+/* --------------- END OF FIRST SEC ----------------*/
+/* Second Section */
+.second-list{
+    display: inline-flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.second-section{
+    margin:120px 156px;
+}
+.second-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--gray);
+        margin-bottom: 8px;
+        
+}
+.second-p{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+/* --------------- END OF 2ND SEC ----------------*/
+/* Third Section */
+.thrid-container{
+    /* margin: 120px 115px 114p 120px; */
+    width: 1440px;
+}
+
+.third-list{
+    display: inline-flex;
+    gap: 24px;
+    list-style: none;
+    margin-bottom: 120px;
+}
+.thirdsec-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--gray);
+    margin-bottom: 72px;
+}
+/* --------------- END OF 3RD SEC ----------------*/
+/* 4th Sec */
+.fourthsec{
+    background-color: #f4f4fd;
+}
+.fourth-container {
+    width: 1440px;
+    display: block;
+    align-items: center;
+}
+.fourth-list{
+        display: inline-flex;
+        gap: 24px;
+        list-style: none;
+        padding-left: 156px;
+        margin-top: 72px;
+        margin-bottom: 120px;
+        text-align: center;
+}
+
+.fourthsec-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align:center;
+    letter-spacing:0.02em;
+    text-transform:capitalize;
+    color: var(--gray);
+}
+
+.fourth-list{
+    align-items: center;
+}
+
+.employee-bgcolor {
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+}
+
+
+.employee-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+    margin-top: 32px;
+}
+.employee-position {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        margin-bottom: 32px;
+        margin-top: 8px;
+}
+/* --------------- END OF 4th SEC ----------------*/
+/* Footer */
+
+.ft-container{
+    width: 1440px;
+    background-color: var(--gray);
+    padding: 100px 0;
+    padding-left: 156px;
+}
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing:0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.ft-studio {
+    color: #f4f4fd;
+}
+
+.ft-p{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 17.5px;
+}
+/* --------------- END OF FOOTER----------------*/
+/* Porfolio header buttons */
+
+.portfolio-buttons{
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #f4f4fd;
+        color: var(--iris);
+        cursor: pointer;
+        border-radius: 4px;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+        padding: 12px 24px;
+}
+.portfolio-buttons:hover{
+    background-color: var(--nav-blue);
+    color: var(--white);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.portfolio-buttons:focus{
+    background-color: var(--nav-blue);
+        color: var(--white);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+/* --------------- END OF PORTFOLIO  HEADER BUTTONS----------------*/
+/* 2nd Section of Portfolio */
+.service {
+    list-style: none;
+}
+.second-sec-container{
+width: 1440px;
+padding-left: 451px;
+margin-top: 96px;
+}
+.second-port-list{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.second-port-list {
+   padding-left: 216px;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.prof-items h2, p{
+    padding-left: 16px;
+}
+
