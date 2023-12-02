@@ -34,8 +34,6 @@ body{
     color: var(--navy-blue);
     background-color: var(--white);
 }
-/* normalize */
-@import 'node_modules/modern-normalize/modern-normalize.css';
 
 /* logo */
 .logo-style {
