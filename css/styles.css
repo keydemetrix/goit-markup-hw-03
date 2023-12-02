@@ -336,10 +336,12 @@ body{
 .service {
     list-style: none;
 }
-.second-sec-container{
-width: 1440px;
-padding-left: 451px;
+.second-container{
 margin-top: 96px;
+}
+
+.third-container{
+    
 }
 .second-port-list{
     display: inline-flex;
@@ -351,6 +353,7 @@ margin-top: 96px;
 
 .second-port-list {
    padding-left: 216px;
+   padding-right: 216px;
 }
 
 .card-list{
@@ -358,6 +361,8 @@ margin-top: 96px;
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .prof-items h2, p{
