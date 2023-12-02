@@ -136,16 +136,16 @@ nav .logo-style{
 /* --------------- END OF NAV ----------------*/
 /* First Section */
 .first-container{
-    background-color: var(--gray);
-    box-sizing: border-box;
-    width: 1440px;
-    height: 600px;
-    
+    text-align: center;
 }
 .section{
+    background-color: var(--gray);
     padding: 188px 0;
-    /* display: block; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    align-items: center; */
 }
 
 .first-title{
@@ -175,6 +175,7 @@ nav .logo-style{
     cursor: pointer;
     min-width: 169px;
     height: 56px;
+    border:none;
     align-items: flex-start;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
