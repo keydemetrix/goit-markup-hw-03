@@ -20,12 +20,15 @@ h1, h2, h3, p, ul{
 }
 /* header class */
 
+.header{
+    border-bottom: 1px solid var(--conrflower, #e7e9Fc);
+}
+
 .hd-container{
     width: 1440px;
     /* height: 72px; */
         background: var(--white, #FFF);
         padding: 24px 0;
-    border-bottom: 1px solid var(--conrflower, #e7e9Fc);
     justify-content: space-between;
 }
 
