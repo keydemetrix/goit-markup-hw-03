@@ -35,6 +35,10 @@ body{
     background-color: var(--white);
 }
 
+img{
+    display: block;
+}
+
 /* logo */
 .logo-style {
     font-family: Raleway, sans-serif;
