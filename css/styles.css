@@ -12,8 +12,8 @@
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 /* Global reset */
 /* h1, h2, h3, p, ul{
@@ -150,6 +150,8 @@ nav .logo-style{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
@@ -225,7 +227,7 @@ nav .logo-style{
     padding: 120px 0;
     /* margin:120px 156px; */
 }
-.second-title {
+/* .second-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -233,7 +235,7 @@ nav .logo-style{
         color: var(--gray);
         margin-bottom: 8px;
         
-}
+} */
 .second-p{
         font-size: 16px;
         line-height: 1.5;
