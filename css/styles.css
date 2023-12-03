@@ -220,9 +220,9 @@ nav .logo-style{
     gap: 24px;
 }
 
-/* .second-item{
-    
-} */
+.second-item{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .second-section{
     padding: 120px 0;
@@ -235,7 +235,6 @@ nav .logo-style{
         letter-spacing: 0.02em;
         color: var(--gray);
         margin-bottom: 8px;
-        flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .second-p{
