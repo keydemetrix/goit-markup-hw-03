@@ -277,6 +277,7 @@ nav .logo-style{
 /* 4th Sec */
 .fourthsec{
     background-color: #f4f4fd;
+    padding: 120px 0 120px;
 }
 .fourth-container {
     width: 1440px;
@@ -288,8 +289,8 @@ nav .logo-style{
         gap: 24px;
         list-style: none;
         padding-left: 156px;
-        margin-top: 72px;
-        margin-bottom: 120px;
+        /* margin-top: 72px;
+        margin-bottom: 120px; */
         text-align: center;
 }
 
@@ -300,6 +301,7 @@ nav .logo-style{
     letter-spacing:0.02em;
     text-transform:capitalize;
     color: var(--gray);
+    margin-bottom:72px;
 }
 
 .fourth-list{
