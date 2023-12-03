@@ -285,13 +285,15 @@ nav .logo-style{
     align-items: center;
 }
 .fourth-list{
-        display: inline-flex;
+        display: flex;
         gap: 24px;
-        list-style: none;
-        padding-left: 156px;
-        /* margin-top: 72px;
-        margin-bottom: 120px; */
+        padding: 0;
+        margin: 0;
         text-align: center;
+}
+
+.fourth-item{
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .fourthsec-title{
