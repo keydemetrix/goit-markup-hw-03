@@ -276,24 +276,24 @@ nav .logo-style{
 /* --------------- END OF 3RD SEC ----------------*/
 /* 4th Sec */
 .fourthsec{
-    background-color: #f4f4fd;
     padding: 120px 0 120px;
+    
 }
 .fourth-container {
-    width: 1440px;
-    display: block;
+    background-color: #f4f4fd;
     align-items: center;
 }
 .fourth-list{
         display: flex;
         gap: 24px;
+        list-style-type: none;
         padding: 0;
         margin: 0;
-        align-items: center;
 }
 
 .fourth-item{
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .text-container{
@@ -303,7 +303,7 @@ nav .logo-style{
 .fourthsec-title{
     font-size: 36px;
     line-height: 1.11;
-    text-align:center;
+    align-items:center;
     letter-spacing:0.02em;
     text-transform:capitalize;
     color: var(--gray);
@@ -312,7 +312,7 @@ nav .logo-style{
 
 .employee-bgcolor {
     background-color: #FFFFFF;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
@@ -327,15 +327,12 @@ nav .logo-style{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--gray);
-    margin-top: 32px;
-    text-align: center;
 }
 .employee-position {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
-        margin-bottom: 32px;
         margin-top: 8px;
 }
 /* --------------- END OF 4th SEC ----------------*/
