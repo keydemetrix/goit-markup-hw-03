@@ -220,6 +220,10 @@ nav .logo-style{
     gap: 24px;
 }
 
+.second-item{
+    width: calc((100% - 72px)/4);
+}
+
 .second-section{
     padding: 120px 0;
     /* margin:120px 156px; */
