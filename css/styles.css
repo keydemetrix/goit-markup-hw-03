@@ -220,7 +220,7 @@ nav .logo-style{
     gap: 24px;
 }
 
-.second-lsit li{
+.second-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
