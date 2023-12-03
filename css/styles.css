@@ -198,51 +198,46 @@ nav .logo-style{
     list-style: none;
 } */
 
+.section-two {
+    padding: 120px 0;
+}
 
 .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin:0;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    margin: -1px;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-.second-list{
+.sec {
     display: flex;
     gap: 24px;
-    padding: 0;
-    margin: 0;
 }
 
-.first-item{
-    width: calc((100% - 72px) / 4);
+.list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+    margin-bottom: 8px;
 }
 
-.item{
+.card {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.second-section{
-    padding: 120px 0 120px;
-    /* margin:120px 156px; */
-}
-.second-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--gray);
-        margin-bottom: 8px;
-}
-
-.second-p{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
+.list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 /* --------------- END OF 2ND SEC ----------------*/
 /* Third Section */
