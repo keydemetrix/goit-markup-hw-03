@@ -295,7 +295,7 @@ nav .logo-style{
     gap:24px;
 }
 
-.fourth-item{
+.fourth-item, .employee-position{
 width: calc((100% - 72px) / 4);
 border-bottom-left-radius: 4px;
 background-color: #FFFFFF;
