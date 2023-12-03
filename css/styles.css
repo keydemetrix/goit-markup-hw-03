@@ -34,6 +34,7 @@
     /* width: 1440px; */
     /* height: 72px; */
         background: var(--white, #FFF);
+    justify-content: space-between;
 }
 
 body{
@@ -49,6 +50,7 @@ img{
 /* logo */
 nav .logo-style{
     margin-right: 76px;
+
 }
 .logo-style {
     font-family: Raleway, sans-serif;
@@ -58,6 +60,7 @@ nav .logo-style{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    /* margin-left: 156px; */
 }
 
 /* nav bar */
@@ -66,7 +69,6 @@ nav .logo-style{
     display: inline-flex;
         gap: 40px;
         /* left: 156px; */
-        position: relative;
         align-items: center;
 
 }
@@ -115,7 +117,9 @@ nav .logo-style{
     display: inline-flex;
         gap: 40px;
         /* left: 76px; */
-        position: relative;
+        align-items: center;
+        /* margin-left: 156px; */
+       
 }
 
 .add{
@@ -137,6 +141,8 @@ nav .logo-style{
 /* First Section */
 .first-container{
     text-align: center;
+    margin-left:300px;
+    
 }
 .section{
     background-color: var(--gray);
@@ -144,8 +150,7 @@ nav .logo-style{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: block;
-    align-items: center; */
+    
 }
 
 .first-title{
