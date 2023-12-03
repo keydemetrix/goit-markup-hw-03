@@ -209,18 +209,12 @@ nav .logo-style{
     border: 0;
 }
 
-/* .second-item {
-    display: flex;
-    list-style: none;
-    gap: 24px;
-} */
-
 .second-list{
     display: flex;
     gap: 24px;
 }
 
-.second-item{
+.item{
     flex-basis: calc((100% - 72px) / 4);
 }
 
