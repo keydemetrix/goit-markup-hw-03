@@ -190,6 +190,7 @@ nav .logo-style{
 }
 /* --------------- END OF FIRST SEC ----------------*/
 /* Second Section */
+
 .second-list{
     display: inline-flex;
     gap: 24px;
@@ -197,7 +198,8 @@ nav .logo-style{
 }
 
 .second-section{
-    margin:120px 156px;
+    padding: 120px 0;
+    /* margin:120px 156px; */
 }
 .second-title {
         font-weight: 500;
