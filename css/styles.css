@@ -12,8 +12,8 @@
 .container {
     width: 1158px;
     margin: 0 auto;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* Global reset */
 /* h1, h2, h3, p, ul{
@@ -150,8 +150,6 @@ nav .logo-style{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
     
 }
 
@@ -219,7 +217,6 @@ nav .logo-style{
 
 .second-list{
     display: flex;
-    list-style: none;
     gap: 24px;
 }
 
