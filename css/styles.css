@@ -229,8 +229,12 @@ nav .logo-style{
     margin-bottom: 8px;
 }
 
+.first-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .card {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-text {
