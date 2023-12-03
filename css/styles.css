@@ -212,12 +212,16 @@ nav .logo-style{
 .second-list{
     display: flex;
     gap: 24px;
-    
+    padding: 0;
+    margin: 0;
+}
+
+.first-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .item{
     flex-basis: calc((100% - 72px) / 4);
-
 }
 
 .second-section{
@@ -230,7 +234,7 @@ nav .logo-style{
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--gray);
-        /* margin-bottom: 8px; */
+        margin-bottom: 8px;
 }
 
 .second-p{
@@ -386,9 +390,6 @@ nav .logo-style{
 margin-top: 96px;
 }
 
-.third-container{
-    
-}
 .second-port-list{
     display: inline-flex;
     flex-direction: row;
