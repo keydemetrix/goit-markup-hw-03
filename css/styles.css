@@ -295,17 +295,19 @@ nav .logo-style{
     gap:24px;
 }
 
-.fourth-item, .employee-position{
+.fourth-item-bg{
+    border-bottom-left-radius: 4px;
+        background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    }
+
+.fourth-item{
 width: calc((100% - 72px) / 4);
-border-bottom-left-radius: 4px;
-background-color: #FFFFFF;
-border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .item-container {
     padding: 32px 0 32px;
-    background-color: #FFFFFF;
 }
 
 .employee-name {
