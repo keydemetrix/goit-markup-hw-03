@@ -212,28 +212,30 @@ nav .logo-style{
 .second-list{
     display: flex;
     gap: 24px;
+    
 }
 
 .item{
     flex-basis: calc((100% - 72px) / 4);
+
 }
 
 .second-section{
-    padding: 120px 0;
+    padding: 120px 0 120px;
     /* margin:120px 156px; */
 }
 .second-title {
         font-weight: 500;
         font-size: 20px;
-        /* line-height: 1.2; */
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--gray);
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
 }
 
 .second-p{
         font-size: 16px;
-        /* line-height: 1.5; */
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
@@ -409,7 +411,7 @@ margin-top: 96px;
     align-items: center;
 }
 
-.prof-items h2, p{
+.prof-items h2 p{
     padding-left: 16px;
 }
 
