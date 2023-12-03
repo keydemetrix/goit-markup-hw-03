@@ -309,12 +309,13 @@ nav .logo-style{
 
 /* --------------- END OF 4th SEC ----------------*/
 /* Footer */
-
-.ft-container{
-    width: 1440px;
+.footer {
     background-color: var(--gray);
-    padding: 100px 0;
-    padding-left: 156px;
+    padding: 100px 0 100px;
+    margin:0;
+}
+.ft-container{
+    
 }
 .footer-logo {
     font-family: Raleway, sans-serif;
@@ -324,6 +325,8 @@ nav .logo-style{
     letter-spacing:0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .ft-studio {
