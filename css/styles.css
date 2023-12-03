@@ -7,6 +7,7 @@
     --white: #ffffff;
     --nav-blue: #404bbf;
     --main-bg-color: #ffffff;
+    --CLOUD: #F4F4FD;
 }
 /* Global container */
 .container {
@@ -277,101 +278,34 @@ nav .logo-style{
 }
 /* --------------- END OF 3RD SEC ----------------*/
 /* 4th Sec */
-.fourthsec{
-    padding: 120px 0 120px;
-    background-color: #f4f4fd;
-    
-}
-.fourth-container {
-    align-items: center;
-}
 
-.ourteam{
-    margin-bottom: 72px;
+.header-title{
     text-align: center;
 }
-
-.fourth-list{
-    display: flex;
-    gap:24px;
+.section-four {
+    background-color: var(--CLOUD);
+    padding: 120px 0;
 }
 
-.fourth-item-bg{
-    width: calc((100% - 72px) / 4);
-    border-bottom-left-radius: 4px;
-        background-color: #FFFFFF;
-        border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    }
-
-.fourth-item{
-width: calc((100% - 72px) / 4);
+.team {
+    background-color: var(--WHITE);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
-.item-container {
-    padding: 32px 0 32px;
+.team-info {
+    padding: 32px 0;
 }
 
-.employee-name {
-    text-align: center;
+.name {
     margin-bottom: 8px;
-}
-
-.employee-position {
     text-align: center;
 }
-/* .fourth-list{
-        display: flex;
-        gap: 24px;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-}
 
-.fourth-item{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-        border-radius: 0px 0px 4px 4px;
-}
-
-.text-container{
-    padding: 32px 0 32px;
-}
-
-.fourthsec-title{
-    font-size: 36px;
-    line-height: 1.11;
-    align-items:center;
-    letter-spacing:0.02em;
-    text-transform:capitalize;
-    color: var(--gray);
-    margin-bottom:72px;
-}
-
-.employee-bgcolor {
-    background-color: #FFFFFF;
+.position {
     text-align: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
 }
 
-
-.employee-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--gray);
-}
-.employee-position {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
-        margin-top: 8px;
-} */
 /* --------------- END OF 4th SEC ----------------*/
 /* Footer */
 
