@@ -245,17 +245,25 @@ nav .logo-style{
 }
 /* --------------- END OF 2ND SEC ----------------*/
 /* Third Section */
-.thrid-container{
-    /* margin: 120px 115px 114p 120px; */
-    width: 1440px;
+.thrid-sec{
+    padding-bottom: 120px;
 }
 
-.third-list{
-    display: inline-flex;
+/* .third-container{
+    width: 1440px;
+} */
+
+.third-list {
+    display: flex;
     gap: 24px;
-    list-style: none;
-    margin-bottom: 120px;
+    padding: 0;
+    margin: 0;
 }
+
+.third-item {
+    width: calc((100% - 3 * 16px) / 3)
+}
+
 .thirdsec-title{
     font-size: 36px;
     line-height: 1.11;
