@@ -225,7 +225,7 @@ nav .logo-style{
 .second-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        /* line-height: 1.2; */
         letter-spacing: 0.02em;
         color: var(--gray);
         margin-bottom: 8px;
@@ -233,7 +233,7 @@ nav .logo-style{
 
 .second-p{
         font-size: 16px;
-        line-height: 1.5;
+        /* line-height: 1.5; */
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
