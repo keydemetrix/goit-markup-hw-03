@@ -191,11 +191,11 @@ nav .logo-style{
 /* --------------- END OF FIRST SEC ----------------*/
 /* Second Section */
 
-.second-list{
+/* .second-list{
     display: inline-flex;
     gap: 24px;
     list-style: none;
-}
+} */
 
 
 .visually-hidden {
@@ -207,6 +207,12 @@ nav .logo-style{
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+.second-item {
+    display: flex;
+    list-style: none;
+    gap: 24px;
 }
 
 .second-section{
