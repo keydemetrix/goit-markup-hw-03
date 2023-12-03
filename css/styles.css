@@ -342,62 +342,74 @@ nav .logo-style{
 }
 /* --------------- END OF FOOTER----------------*/
 /* Porfolio header buttons */
-
-.portfolio-buttons{
-        font-family: Roboto, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color: #f4f4fd;
-        color: var(--iris);
-        cursor: pointer;
-        border-radius: 4px;
-        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-        padding: 12px 24px;
-}
-.portfolio-buttons:hover{
-    background-color: var(--nav-blue);
-    color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.portfolio-buttons:focus{
-    background-color: var(--nav-blue);
-        color: var(--white);
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-/* --------------- END OF PORTFOLIO  HEADER BUTTONS----------------*/
-/* 2nd Section of Portfolio */
-.service {
-    list-style: none;
-}
-.second-container{
-margin-top: 96px;
+.button-portfolio {
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--conrflower);
+    border-radius: 4px;
 }
 
-.second-port-list{
-    display: inline-flex;
-    flex-direction: row;
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--WHITE);
+    background-color: var(--nav-blue);
+    border: 1px solid transparent;
+}
+
+/* main */
+.section-five {
+    padding: 96px 0 120px 0;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
     gap: 24px;
-    align-items: center;
     margin-bottom: 72px;
 }
 
-.second-port-list {
-   padding-left: 216px;
-   padding-right: 216px;
+/* list of pictures */
+.svc-item {
+    text-decoration: none;
+    color: var(--gray);
 }
 
-.card-list{
+.svc {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-bottom: 120px;
-    justify-content: center;
-    align-items: center;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
-.prof-items h2 p{
-    padding-left: 16px;
+.svc-info {
+    flex-basis: calc((100% - 48px) / 3);
 }
 
+.port-container {
+    padding: 32px 16px;
+    border: 1px solid var(--conrflower);
+    border-top: none;
+}
+
+.image {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+}
+
+.text-image {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+}
